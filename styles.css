@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    color: white;
+    background-color:teal;
+    border-radius: 5px;
+    margin: 50px auto;
+    width: 40rem;
+    font-size: 20px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.search-bar {
+    width: 60%;
+    padding-top: 20px;
+    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+    align-content:center;
+    display: flex ;
+    border-bottom: 1px solid white;
+
+}
+
+#search-input{
+    height: 30px;
+    font-size: 20px;
+    width: 100%;
+    border: hidden;
+    background: black;
+    color: white;
+    outline: none;
+    padding: 3px 3px 3px 10px;
+}
+
+
+#search-input::placeholder{
+    color: rgb(206, 206, 208);
+}
+
+.search-icon{
+    
+    background-color: red;
+    padding: 1px;
+    height: 30px;
+    
+}
+
+.info-wrapper{
+    display: flex;
+    flex-direction: column;    
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    height: 30vh;
+    padding: 80px 50px;
+}
+
+.cityname{
+    background-color: red;
+    margin: auto;
+    font-size: 50px;
+   
+    
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.wetherstate{
+    margin: auto;
+    background-color: yellow;
+    
+    color: black;
+}
+
+#imageWhether{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+.temperture{
+    margin: auto;
+    background-color: yellow;
+    width: auto;
+    font-size: 80px;
+    line-height: 1;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    position: relative;
+}
+
+.temperture::after{
+    content: "o";
+    font-size: 50px;
+    position: absolute;
+    
+}
+
+.add-section {
+    border-top: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.add-section .row {
+    margin: 10px;
+    display: flex;
+}
+
+.add-section .row .item {
+    flex: 1;
+    
+}
+
+.add-section .row .item .label {
+    font-weight: bold;
+    color: rgb(24, 26, 28);
+    
+}
